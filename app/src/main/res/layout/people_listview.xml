@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/idtextname"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="21dp"
+        android:inputType="textMultiLine"
+        android:text="TextView   "
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignTop="@+id/idtextname"
+        android:layout_toEndOf="@+id/idtextname"
+        android:text=" owes you Rs. "
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/idtextprice"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignTop="@+id/idtextname"
+        android:layout_toEndOf="@+id/textView6"
+        android:text="TextView "
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="italic|bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/idtextname"
+        app:srcCompat="@drawable/ic_edit" />
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme"
+    tools:context=".Create_Group">
+
+    <TextView
+        android:id="@+id/iddisplaygrpname"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="40dp" />
+
+
+    <Button
+        android:id="@+id/idaddper"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iddisplaygrpname"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_theme"
+        android:text="@string/add_person"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+
+    <ListView
+        android:id="@+id/iddispmem"
+        android:layout_width="match_parent"
+        android:layout_height="296dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2" />
+
+    <Button
+        android:id="@+id/idnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_theme"
+        android:text="Next" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="112dp"
+        android:text="Group Members:  "
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

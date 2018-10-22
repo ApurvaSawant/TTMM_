@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:background="@drawable/theme">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="HOME"
+            />
+
+        <item
+            android:id="@+id/group"
+            android:icon="@drawable/ic_menu_group"
+            android:title="GROUPS" />
+
+
+        <item
+            android:id="@+id/rateus"
+            android:icon="@drawable/ic_menu_rate"
+            android:title="RATE US" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="LOG OUT" />
+
+    </group>
+</menu>

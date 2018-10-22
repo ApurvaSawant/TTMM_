@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/theme">
+
+    <ImageView
+        android:id="@+id/idlogo"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/logo" />
+
+
+
+    <EditText
+        android:id="@+id/lidemail"
+        android:layout_width="348dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="174dp"
+        android:drawableLeft="@drawable/mail"
+        android:drawablePadding="15dp"
+        android:hint="Email Id" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="338dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="105dp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/colorPrimary">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/lidpass"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/psw"
+            android:drawablePadding="15dp"
+            android:drawableStart="@drawable/images"
+            android:hint="Password"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/idlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:background="@color/colorPrimary"
+        android:text="LOG IN"
+        android:textSize="18dp"
+        android:textColor="#fff" />
+
+
+
+</RelativeLayout>
